@@ -40,7 +40,7 @@ const Hotels = () => {
             <h2>All Hotels</h2>
             <ul>
                 {data.map(hotel => (
-                    <li key={hotel._id}>{hotel.name} <button onClick={() => handleDelete(book._id)}>Delete</button></li>
+                    <li key={hotel._id}>{hotel.name} <button onClick={() => handleDelete(hotel._id)}>Delete</button></li>
                 ))}
             </ul>
             <p>{successMessage}</p>
