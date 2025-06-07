@@ -10,7 +10,7 @@ const Hotels = () => {
 
     const handleDelete = async(hotelId) => {
     try {
-        const response = await fetch(`https://be-4-assignement1.vercel.app/hotels/${hotelId}`,
+        const response = await fetch(`https://hotel-backend-one.vercel.app/hotels/${hotelId}`,
             {
                 method : "DELETE",
             }
